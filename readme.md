@@ -1,5 +1,5 @@
-##Speedtest for influx
-#####or any other programm 
+## Speedtest for influx
+##### or any other programm 
 
 This script parses the ouput of speedtest-cli and lets you use the variables for anything you like.
 
@@ -12,15 +12,15 @@ This script parses the ouput of speedtest-cli and lets you use the variables for
  
  script will install ./speedtest-cli from github if it does not exist
  
- ###installation 
+ ### installation 
   
- #####wget
+ ##### wget
 ````bash
  wget -O influxspeedtest.sh https://raw.githubusercontent.com/littleCdev/influxspeedtest/master/influxspeedtest.sh
  chmod +x influxspeedtest.sh
 ````
  
-#####curl
+##### curl
 ````bash
 curl -Lo influxspeedtest.sh https://raw.githubusercontent.com/littleCdev/influxspeedtest/master/influxspeedtest.sh
 chmod +x influxspeedtest.sh
